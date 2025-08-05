@@ -1,0 +1,9 @@
+{
+  "name": "WS2022 S17 - Module E",
+  "displayName": "Virtual World Interactive Game",
+  "description": "Create an interactive learning game for kids featuring avatar movement, scene switching, and educational quizzes in a virtual world environment.",
+  "url": "https://github.com/marketable-it-skills/s17-ws2022-module_e-virtual-word-interactive-game",
+  "skillDomains": ["Web Technologies"],
+  "competition": "WorldSkills 2022",
+  "tags": ["HTML", "CSS", "JavaScript", "HTML5 Canvas", "Game Development", "LocalStorage", "API Integration"]
+}

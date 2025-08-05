@@ -1,0 +1,301 @@
+{
+  "totalMark": 16,
+  "wsosSections": {
+    "1": "Work organization and self-management",
+    "2": "Communication and interpersonal skills",
+    "3": "Design implementation",
+    "4": "Front-end development",
+    "5": "Back-end development"
+  },
+  "subCriterions": [
+    {
+      "name": "Avatar movement",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "The HTML5 game page is accessible via required URL",
+          "maxMark": 0.5,
+          "wsosSection": 2,
+          "extraDescription": "/XX_module_e/",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The avatar can be moved via keyboard",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Up, down, left, right keyboard",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The avatar can be moved by clicking or tapping on the screen",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The avatar can only be moved within the walking area",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Bottom area, as described in Test Project",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The avatar position is saved via LocalStorage",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Check local storage and see any data stored for position. Any data count as correct",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The avatar position can be resumed when web page loads or refresh",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The game can be toggled into full screen",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Full screen without task bar and browser UI",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "An animation shows when tapping or clicking on the screen, to show where the avatar is going to move",
+          "maxMark": 0.5,
+          "wsosSection": 3,
+          "judgementScoreDescription": [
+            "No animations were used",
+            "The animations used are very simple",
+            "Animation was used to enhance user experience",
+            "The animations create a good user experience for the viewers, and promote the objective"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scene construction and switching",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "Scene change to prev or next when avatar moves to the edge of the screen",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Scene creation has animation to present the scene objects one by one",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Must not be too slow that can't assess",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "When scene contains video tutorial, the video is embed inline in the middle area of scene as described",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "At most 1 video per scene, and some scene has no video",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "When scene contains no video, there is an image in the middle area of scene",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Producing specific sounds",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "Click on objects produces \"object-sound\" and showing learning activities shows \"learning-activity\"",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Clicking on the scene objects on screen will animate the object a little bit",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "The animation presentation for the scene is energetic and not boring, when construction",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "judgementScoreDescription": [
+            "No animations were used",
+            "The animations used are very simple",
+            "Animation was used to enhance user experience",
+            "The animations create a good user experience for the viewers, and promote the objective"
+          ]
+        },
+        {
+          "type": "judgement",
+          "description": "Parallax effect can be easily configured in code",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "judgementScoreDescription": [
+            "Z-index offset is deep inside code and not easy to change",
+            "z-index offset is code-based and easy to be changed by programmer, but not easy to be changed by not experienced programmer",
+            "Z-index offset configure is easy access and can be configured even not experienced programmer",
+            "Z-index offset configure is easy access and can be configured even non-programmer"
+          ]
+        },
+        {
+          "type": "judgement",
+          "description": "The objects with parallax effect on mouse over has good feeling of parallax",
+          "maxMark": 0.75,
+          "wsosSection": 3,
+          "judgementScoreDescription": [
+            "Parallax not implemented at all. Cannot tell any distances between parts",
+            "The parallax effect is not implemented well, and the parallax feels not implemented correctly",
+            "Player can slightly feel the elements of objects floats but not too easy to spot or distinguish the distance of the parts in the object",
+            "Player can feel the elements of objects floats obviously and can distinguish the distance of the parts in the object"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Learning Activities",
+      "aspects": [
+        {
+          "type": "measurement",
+          "description": "In each scene, there are blocks on the right edge of the screen",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Display exists",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "When avatar moves to the right edge, and touch or near to the questions blocks, the quiz of the scene shows",
+          "maxMark": 1,
+          "wsosSection": 4,
+          "extraDescription": "Slides up from the bottom",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The quiz shows multiple choice",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "extraDescription": "Text question. Text answer. Four choose one",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The block is removed after choosing correct answer",
+          "maxMark": 0.25,
+          "wsosSection": 4,
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The right edge, which goes to the next scene, can only be reached after all blocks is removed",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "extraDescription": "And also not able to go to next scene even using click/tap",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "The multiple choice selection has special animation/transition effects",
+          "maxMark": 0.5,
+          "wsosSection": 4,
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "Score saving via API",
+          "maxMark": 0.5,
+          "wsosSection": 5,
+          "extraDescription": "When finishing the game, total count of correct quiz is sent. As long as postMessage send, no guarantee of success",
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "measurement",
+          "description": "When score saving fails, an error message shows on the user interface",
+          "maxMark": 0.5,
+          "wsosSection": 5,
+          "calculation": {
+            "type": "pass-or-fail"
+          }
+        },
+        {
+          "type": "judgement",
+          "description": "The animation and transition effect of multiple choice selection is energetic and not boring",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "judgementScoreDescription": [
+            "No animations were used",
+            "The animations used are very simple",
+            "Animation was used to enhance user experience",
+            "The animations create a good user experience for the viewers, and promote the objective"
+          ]
+        },
+        {
+          "type": "judgement",
+          "description": "The animation presentation for the quiz showing screen is energetic and not boring",
+          "maxMark": 1,
+          "wsosSection": 3,
+          "judgementScoreDescription": [
+            "No animations were used",
+            "The animations used are very simple",
+            "Animation was used to enhance user experience",
+            "The animations create a good user experience for the viewers, and promote the objective"
+          ]
+        }
+      ]
+    }
+  ]
+}
