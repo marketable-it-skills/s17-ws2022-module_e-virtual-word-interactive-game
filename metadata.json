@@ -1,9 +1,27 @@
 {
+  "id": 20,
   "name": "WS2022 S17 - Module E",
   "displayName": "Virtual World Interactive Game",
   "description": "Create an interactive learning game for kids featuring avatar movement, scene switching, and educational quizzes in a virtual world environment.",
   "url": "https://github.com/marketable-it-skills/s17-ws2022-module_e-virtual-word-interactive-game",
-  "skillDomains": ["Web Technologies"],
+  "skillDomainIds": [1],
   "competition": "WorldSkills 2022",
-  "tags": ["HTML", "CSS", "JavaScript", "HTML5 Canvas", "Game Development", "LocalStorage", "API Integration"]
+  "estTime": 4,
+  "authors": [
+    {
+      "name": "Thomas Seng Hin Mak",
+      "url": "https://www.linkedin.com/in/thomas-seng-hin-mak/"
+    },
+    {
+      "name": "Fong Hok Kin",
+      "url": ""
+    }
+  ],
+  "technologies": ["HTML", "CSS"],
+  "tags": [
+      "HTML5 Canvas",
+      "Game Development",
+      "LocalStorage",
+      "API Integration"
+  ]
 }
